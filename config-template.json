@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "appId": "nighttab-selfhosted",
+    "appVersion": "2.2.0"
+  },
+  "title": "Start page",
+  "subtitle": "",
+  "search": {
+    "enabled": true,
+    "openInNewTab": true,
+    "placeholder": "Search",
+    "providers": [
+      {
+        "id": "google",
+        "label": "Google",
+        "baseUrl": "https://www.google.com/search",
+        "queryParam": "q"
+      },
+      {
+        "id": "bing",
+        "label": "Bing",
+        "baseUrl": "https://www.bing.com/search",
+        "queryParam": "q"
+      },
+      {
+        "id": "duckduckgo",
+        "label": "DuckDuckGo",
+        "baseUrl": "https://duckduckgo.com/",
+        "queryParam": "q"
+      }
+    ],
+    "defaultProviderId": "google"
+  },
+  "appearance": {
+    "backgroundUrl": "",
+    "gradientStart": "#0d1626",
+    "gradientEnd": "#152235",
+    "accent": "#7be1d4",
+    "textColor": "#eef2f7",
+    "mutedColor": "#9aa6b6",
+    "pageTitleSize": 14,
+    "tileWidth": 188,
+    "tileHeight": 152,
+    "tileTitleSize": 14,
+    "tileVisualSize": 28,
+    "gap": 20,
+    "contentWidth": 1710,
+    "showClock": true,
+    "showDate": true
+  },
+  "groups": []
+}

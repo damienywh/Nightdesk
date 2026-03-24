@@ -1,0 +1,63 @@
+{
+  "nightTab": true,
+  "version": "7.5.0",
+  "state": {
+    "layout": {
+      "title": "Start page",
+      "gutter": 20,
+      "width": 95,
+      "size": 60
+    },
+    "header": {
+      "search": {
+        "show": true,
+        "newTab": true,
+        "engine": {
+          "selected": "custom",
+          "custom": {
+            "url": "https://www.google.com/search",
+            "name": "Google",
+            "queryName": "q"
+          }
+        }
+      },
+      "clock": {
+        "show": true
+      },
+      "date": {
+        "show": true
+      }
+    },
+    "theme": {
+      "background": {
+        "gradient": {
+          "start": {
+            "rgb": {
+              "r": 13,
+              "g": 22,
+              "b": 38
+            }
+          },
+          "end": {
+            "rgb": {
+              "r": 21,
+              "g": 34,
+              "b": 53
+            }
+          }
+        },
+        "image": {
+          "url": ""
+        }
+      },
+      "accent": {
+        "rgb": {
+          "r": 123,
+          "g": 225,
+          "b": 212
+        }
+      }
+    }
+  },
+  "bookmark": []
+}
